@@ -66,3 +66,40 @@ style.css
     color: red;
 }
 ```
+
+### SPECIFICITY
+
+The order in which the browser decides to display styles. The most specific styles override the least. In this case, an ID's style will override a class's style, a class's style will override a tag's style. 
+
+When we chain selectors, we increas the specificity of that style. 
+
+##### CHAINING SELECTORS
+
+If a specific HTML element has 2 or more selectors, one can refer to it like so: 
+
+``` div.blue {
+    background-color: blue;
+}
+```
+
+In this example we are selecting the tag (div) with a class of blue.
+
+##### MULTIPLE
+
+To avoid redundancy, one can apply a style to multiple selectors separated by a comma. 
+
+```
+body, div, .class, #id {
+    font-family: Batman Sans Serif;
+}
+```
+
+##### !IMPORTANT
+
+This special phrase, when included in a style, can override even an ID's style. It is technically the most specific rule. However, it's often recommended to avoid using !important as much as possible.
+
+``` 
+.anImportantStyle {
+    color: tomato !important;
+}
+```
