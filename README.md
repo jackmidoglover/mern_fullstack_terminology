@@ -10,3 +10,4 @@ This repository is a work in progress and I invite you to contribute to it! If y
 ### UNIT 1
 
 [HTML Vocabulary](./unit_one/html.md)
+[CSS Vocabulary](./unit_one/css.md)
