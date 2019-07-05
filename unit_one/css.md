@@ -71,13 +71,14 @@ style.css
 
 The order in which the browser decides to display styles. The most specific styles override the least. In this case, an ID's style will override a class's style, a class's style will override a tag's style. 
 
-When we chain selectors, we increas the specificity of that style. 
+When we chain selectors, we increase the specificity of that style. 
 
 ##### CHAINING SELECTORS
 
 If a specific HTML element has 2 or more selectors, one can refer to it like so: 
 
-``` div.blue {
+``` 
+div.blue {
     background-color: blue;
 }
 ```
