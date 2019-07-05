@@ -1,4 +1,4 @@
-![Cascading Style Sheets refers to the manner in which styles grabbed from files that containg styling information are blanketed across a page and ordered by their specificity](./images/cssHeader.jpg)
+![Cascading Style Sheets refers to the manner in which styles grabbed from files that containg styling information are blanketed across a page and ordered by their specificity](./images/cssHeader1.jpg)
 
 ### 3 METHODS OF APPLYING CSS
 
